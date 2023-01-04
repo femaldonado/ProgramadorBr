@@ -1,0 +1,85 @@
+/*design do geral */
+
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #333;
+}
+
+.conteudo {
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+/*design do top-bar */
+
+#qual-comprar {
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding: 0.001em;
+    border-bottom: 5px solid orange;
+}
+
+/*design do header */
+#title {
+    color: #111;
+    font-weight: bold;
+}
+
+#autor {
+    font-size: 10px;
+    font-weight: bold; 
+}
+
+#data {
+    font-size: 8px;
+    opacity: 0.7;
+    line-height: 1px;
+}
+
+/*design das imagens */
+
+#facebook {
+    margin-right: 3px;
+    height: 30px;
+
+}
+
+#twitter {
+    margin-right: 3px;
+    height: 30px;
+}
+
+#whatsapp {
+    height: 30px;
+}
+
+#link {
+    color: #fd8a24;
+    text-decoration: none;
+    
+}
+
+#moedas {
+    height: 400px;
+}
+
+#legenda-moeda {
+    font-size: 8px;
+    opacity: 0.5;
+
+}
+
+#h2 {
+    font-weight: bold;
+
+}
+
+/*design do footer */
+
+#footer {
+    background-color: #333;
+    padding-top: 15px;
+}
+
+
