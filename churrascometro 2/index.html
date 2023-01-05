@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./imagens/IMG_4220.PNG" type="image/x-icon">
+    <title>BBQ Party Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid">
+        <!-- text and image area -->
+        <div class="text-content">
+          <h1>
+            Calculate How Much Food And Drink You Need For Your Party!
+          </h1>
+          <img id="imgbbq" src="./imagens/IMG_8879.JPG" alt="barbecue party" />
+        </div>
+        <!-- calculator area  -->
+        <div class="box-calculo">
+           <h2>
+            Barbecue 
+            <br>
+            Calculator
+          </h2>
+          <div class="form">
+            <div class="input-block">
+              <label for="adultos">Number of Adults</label>
+              <input
+                type="number"
+                name="adultos"
+                id="adultos"
+                placeholder="Adults"
+              />
+            </div>
+          
+            <div class="input-block">
+              <label for="criancas">Number of Kids</label>
+              <input
+                type="number"
+                name="criancas"
+                id="criancas"
+                placeholder="Kids"
+              />
+            </div>
+            <div class="input-block">
+              <label for="duracao">Duration of Party</label>
+              <input
+                type="number"
+                name="duracao"
+                id="duracao"
+                placeholder="Duration (h)"
+              />
+            </div>
+            <div class="input-block">
+              <button onclick="calcular()">Calculate</button>
+            </div>
+          </div>
+          <div id="resultado"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
